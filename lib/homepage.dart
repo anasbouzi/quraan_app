@@ -5,6 +5,11 @@ class HomePage extends StatelessWidget {
   static const String routeName = 'home';
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('quraan app'),
+        backgroundColor: Colors.blue,
+      ),
+    );
   }
 }
